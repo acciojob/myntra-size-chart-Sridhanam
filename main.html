@@ -4,10 +4,80 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+		table{
+			width:600px;
+			border:1px solid black;
+		}
+		th{
+			text-align:left;
+			border:1px solid black;
+		}
+		td{
+			border:1px solid black;
+		}
+		.data{
+			text-align:right;
+		}
+        #head{
+            background-color: rgb(236, 88, 88);
+            color: white;
+        }
+        #frow{
+            background-color: rgb(244, 145, 145);
+            color: white;
+        }
+        #srow{
+            background-color: rgb(243, 214, 214);
+            color: rgb(17, 4, 4);
+        }
+        #trow{
+            background-color: rgb(176, 162, 162);
+            color: rgb(6, 3, 3);
+        }
+	</style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<table cellspacing="0">
+		<thead>
+			<tr id="head">
+				<th>Part</th>
+				<th>XS</th>
+				<th>S</th>
+				<th>M</th>
+				<th>L</th>
+				<th>XL</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr id="frow">
+				<td>Waist</td>
+				<td class="data">25</td>
+				<td class="data">28</td>
+				<td class="data">30</td>
+				<td class="data">31</td>
+				<td class="data">32</td>
+			</tr>
+			<tr id="srow">
+				<td>Chest</td>
+				<td class="data">34</td>
+				<td class="data">34</td>
+				<td class="data">38</td>
+				<td class="data">40</td>
+				<td class="data">41</td>
+			</tr>
+			<tr id="trow">
+				<td>Sleeve</td>
+				<td class="data">23</td>
+				<td class="data">24</td>
+				<td class="data">24</td>
+				<td class="data">25</td>
+				<td class="data">25</td>
+			</tr>
+		</tbody>
+	</table>
     <script type="text/javascript" src="./script.js">
 </script>
 
